@@ -1,19 +1,24 @@
-Redmine: BOM付きCSV
+Redmine: CSV with BOM
 ===================
 
-これは Redmine が出力する CSV の先頭に BOM を付加するためのプラグインです。
-これを使用することで Excel で読める UTF-8 CSV を出力できるようになります。
+This is a plug-in to add a BOM at the beginning of the CSV output from the Redmine.
+You will be able to output a UTF-8 CSV that can be read in Excel by using this.
 
-インストール
-------------
+This plugin was originally developed by tmtm (http://github.com/tmtm/).
 
-    % script/plugin install git://github.com/tmtm/redmine_csv_with_bom
+Installation
+------------------
+    % script/plugin install git://github.com/Rumega/redmine_csv_with_bom
     
 Update: 1/24/2013
-------------
+------------------
 The original version doesn't work with Redmine 2.2.0 (and may be older versions)
 Updated version works.
 
+Update: 1/29/2015
+------------------
+Added Redmine 2.6 support.
+Rewrited the patch in a more correct way.
     
 
 
